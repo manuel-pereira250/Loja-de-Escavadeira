@@ -28,7 +28,7 @@ header li a {
 }
 
 header img {
-    width: 200px;
+    width: 250px;
     height: auto;
 }
 
@@ -42,3 +42,76 @@ header img {
     background-position: center;
 }
 
+.sec01 button {
+    width: 150px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.527);
+    border-color: rgb(150, 2, 248);
+}
+
+.sec02 {
+    display: flex;
+    padding: 250px;
+    background-color: rgb(0, 162, 255);
+    justify-content: space-evenly;
+}
+
+.sec02 h2 {
+    color: white;
+    font-size: 20px;
+    margin: 15px;
+}
+
+.sec02 p {
+    color: white;
+    font-size: 15px;
+    margin: 15px;
+}
+
+.sec02 img {
+    width: 350px;
+    height: 350px;
+}
+.sec03 {
+    background-image: url(imagem/escavadeira04.jpg);
+    padding: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+.sec03 h2 {
+    color: white;
+    font-size: 15px;
+    margin: 15px;
+    font-weight: 400px;
+}
+.sec03 p {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    margin: 15px;
+    font-weight: 400px;
+}
+
+.footer {
+    display: flex;
+    background-color: rgb(238, 62, 9);
+    padding: 15px;
+    justify-content: center;
+}
+
+.footer nav li {
+    display: flex;
+    color: blue;
+}
+
+.footer nav ul li {
+    list-style: none;
+    margin-right: 10px;
+}
+
+.footer nav ul li a {
+    color: blue;
+    text-decoration: none;
+}
