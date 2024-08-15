@@ -1,115 +1,169 @@
-*{
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+*{  /* * = pegando tudo da pagina*/
+
+    padding: 0;/*deixando tudo encostado*/
+
+    margin: 0;/*deixando tudo encostado*/
+
+    list-style: none;/*sem nenhum estilo nas listas*/
+
+    font-family: Georgia, 'Times New Roman', Times, serif;/*colocando uma fonte familia para toda a pagina*/
 }
 
-header {
-    display: flex;
-    background-color: #b88000;
-    padding: 20px;
-    align-items: center;
-    justify-content: space-between;
+header { /* header modificando a cabeça do site */
+
+    display: flex;/*tornando flex e fazendo ficar lado a lado*/
+
+    background-color: #5e9fa3;/*cor de fundo*/
+
+    padding: 20px;/*alterando o tamanho da nossa header*/
+
+    align-items: center;/*alinhando para o centro*/
+
+    justify-content: space-between;/*justificando o conteudo aos cantos da tela (esquerda e direita) tanto a img quanto as ancoras*/
 }
 
-header nav ul {
-    display: flex;
+header nav ul { /*chamamos nossa ul da header para modificar  */
+
+    display: flex; /*tornando flex e fazendo ficar lado a lado*/
 }
 
 header ul li {
-    list-style: none;
-    margin-right: 10px;
+
+    margin-right: 10px;/*alterando o espaçamento entre as ancoras*/
 }
 
-header li a {
-    text-decoration: none;
-    color: white;
+header li a { /*chamamos nossa (a) que esta dentro do header para modificar*/
+
+    text-decoration: none;/*removendo a linha de baixo das ancoras */
+
+    color: white; /*colocamos uma cor nas ancoras*/
 }
 
-header img {
-    width: 250px;
-    height: auto;
+header img { /*chamando a (img) para modificar*/
+
+    width: 250px;/*modificando a largura em (250px)*/
+
+    height: auto;/* deixando automatico a nossa altura*/
 }
 
-.sec01 {
-    display: flex;
-    padding: 250px;
-    justify-content: center;
-    background-image: url(imagem/escavadeira03.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+.sec01 {/*chamando a sec01 para stetizar*/
+
+    display: flex;/*tornando flex e fazendo ficar lado a lado*/
+
+    padding: 250px;/*alterando o tamanho da nossa sec01*/
+
+    justify-content: center;/*justificando o conteudo ao centro da tela*/
+
+    background-image: url(imagem/escavadeira03.jpg);/*colocando uma img de fundo da tela*/
+
+    background-repeat: no-repeat;/*fazendo a img não se repetir*/
+    
+    align-items: center;/*alinhado no centro*/
+
+    background-size: cover;/*usei para a img cobrir toda a tela*/
+
+    background-position: center;/*colocando a no centro*/
 }
 
-.sec01 button {
-    width: 150px;
-    height: 45px;
-    border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.527);
-    border-color: rgb(150, 2, 248);
+.sec01 button {/*chamando o (butão) que esta na sec01*/
+
+    width: 150px;/*alterar o tamanho do (butão)*/  
+
+    height: 40px;/*alterar a autura do botton */
+
+    border-radius: 10px; /*deixar o botão mais redondo*/
+
+    background-color: rgba(255, 255, 255, 0.527);/*cor de fundo*/ 
+
+    border-color: rgb(150, 2, 248);/*cor das bordas*/
 }
 
-.sec02 {
-    display: flex;
-    padding: 250px;
-    background-color: rgb(0, 162, 255);
-    justify-content: space-evenly;
+.sec02 {/*chamando a sec02 para modificar*/
+
+    display: flex; /*tornando flex e fazendo ficar lado a lado*/
+
+    padding: 250px;/*alterando o tamanho da nossa sec02*/
+
+    background-color: #dcd1b4;/*cor de fundo*/
+
+    justify-content: space-evenly;/*justificando alinhando*/
 }
 
-.sec02 h2 {
-    color: white;
-    font-size: 20px;
-    margin: 15px;
+.sec02 h2 {/*chamando (h2) dentro da sec02 para costomizar*/
+
+    color: rgb(0, 0, 0);/*colocando cor*/
+
+    font-size: 20px;/*alterando o tamanho da lentra*/
+
+    margin: 15px;/*define a área da margem nos quatro lados do elemento*/
 }
 
-.sec02 p {
-    color: white;
-    font-size: 15px;
-    margin: 15px;
+.sec02 p {/*chamando nosso (p) para modificar*/
+    color: rgb(0, 0, 0);/*colocando uma cor*/
+
+    font-size: 15px;/*alterando o tamanho da letra (p)*/
+
+    margin: 15px;/*define a área da margem nos quatro lados do elemento*/
 }
 
-.sec02 img {
-    width: 350px;
-    height: 350px;
+.sec02 img {/*chamando nosssa (img) dentro da sec02 para modificar*/
+
+    width: 350px;/*alterar o tamanho da (img)*/
+
+    height: 350px;/*alterar a autura da (img) */
 }
-.sec03 {
+.sec03 {/*chamando nossa (sec03) para modificar*/
     background-image: url(imagem/escavadeira04.jpg);
-    padding: 350px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
-    background-attachment: fixed;
+
+    padding: 350px;/*alterando o tamanho da nossa sec03*/
+
+    background-repeat: no-repeat;/*fazendo a img não se repetir*/
+
+    background-size: cover;/*tamanho do plano de fundo*/
+
+    background-position: bottom;/*mexe na posição inicial da imagen*/
+
+    background-attachment: fixed;/*fixar a imagen*/
 }
-.sec03 h2 {
+.sec03 h2 {/*chamando nossa (h2) dentro da sec03 para modificar*/
     color: white;
     font-size: 15px;
-    margin: 15px;
+
+    margin: 15px;/*define a área da margem nos quatro lados do elemento*/
+
     font-weight: 400px;
 }
-.sec03 p {
+.sec03 p {/*chamando nosso (p) dentro da sec03 para modificar*/
     color: rgb(255, 255, 255);
     font-size: 15px;
-    margin: 15px;
+
+    margin: 15px;/*define a área da margem nos quatro lados do elemento*/
+
     font-weight: 400px;
 }
 
-.footer01 {
-    display: flex;
-    background-color: rgb(238, 62, 9);
-    padding: 15px;
+.footer01 {/*chamando nosso (footer01) para modificar*/
+
+    display: flex; /*tornando flex e fazendo ficar lado a lado*/
+
+    background-color: #f87e7b;/*cor de fundo*/
+
+    padding: 15px;/*alterando o tamanho da nossa footer01*/
+
     justify-content: center;
 }
 
-.footer01 nav ul {
-    display: flex;
+.footer01 nav ul {/*chamando nossa (ul) dentro do footer01 para modificar*/
+
+    display: flex;/*tornando flex e fazendo ficar lado a lado*/
+
 }
 
-.footer01 nav ul li {
+.footer01 nav ul li {/*chamando nossa (li) dentro do footer01 para modificar*/
     margin-right: 10px;
 }
 
-.footer01 nav ul li a {
+.footer01 nav ul li a {/*chamando nossa (a) dentro do footer01 para modificar*/
     color: blue;
     text-decoration: none;
 }
