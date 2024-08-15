@@ -9,7 +9,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;/*colocando uma fonte familia para toda a pagina*/
 }
 
-header { /* header modificando a cabeça do site */
+header { /* header modificando o cabeçalho do site */
 
     display: flex;/*tornando flex e fazendo ficar lado a lado*/
 
@@ -86,7 +86,7 @@ header img { /*chamando a (img) para modificar*/
 
     background-color: #dcd1b4;/*cor de fundo*/
 
-    justify-content: space-evenly;/*justificando alinhando*/
+    justify-content: space-evenly;/*justificando para lainhar o conteudo do sec02 */
 }
 
 .sec02 h2 {/*chamando (h2) dentro da sec02 para costomizar*/
@@ -123,15 +123,17 @@ header img { /*chamando a (img) para modificar*/
 
     background-position: bottom;/*mexe na posição inicial da imagen*/
 
-    background-attachment: fixed;/*fixar a imagen*/
+    background-attachment: fixed;/*fixar a imagen para não sair do lugar*/
 }
 .sec03 h2 {/*chamando nossa (h2) dentro da sec03 para modificar*/
-    color: white;
-    font-size: 15px;
+
+    color: white;/*colocando cor no (h2)*/
+
+    font-size: 15px;/*tamanho da fonte*/
 
     margin: 15px;/*define a área da margem nos quatro lados do elemento*/
 
-    font-weight: 400px;
+    font-weight: 400px;/*tamanho da fonte palavra*/
 }
 .sec03 p {/*chamando nosso (p) dentro da sec03 para modificar*/
     color: rgb(255, 255, 255);
@@ -139,7 +141,7 @@ header img { /*chamando a (img) para modificar*/
 
     margin: 15px;/*define a área da margem nos quatro lados do elemento*/
 
-    font-weight: 400px;
+    font-weight: 400px;/*tamanho da fonte palavra*/
 }
 
 .footer01 {/*chamando nosso (footer01) para modificar*/
@@ -150,7 +152,7 @@ header img { /*chamando a (img) para modificar*/
 
     padding: 15px;/*alterando o tamanho da nossa footer01*/
 
-    justify-content: center;
+    justify-content: center;/*alinhando para o centro*/
 }
 
 .footer01 nav ul {/*chamando nossa (ul) dentro do footer01 para modificar*/
@@ -160,10 +162,13 @@ header img { /*chamando a (img) para modificar*/
 }
 
 .footer01 nav ul li {/*chamando nossa (li) dentro do footer01 para modificar*/
-    margin-right: 10px;
+
+    margin-right: 10px;/*alterando o espaçamento entre as ancoras*/
 }
 
 .footer01 nav ul li a {/*chamando nossa (a) dentro do footer01 para modificar*/
-    color: blue;
-    text-decoration: none;
+
+    color: blue;/*colocando cor na(a)*/
+    
+    text-decoration: none;/*removendo a linha de baixo das ancoras */
 }
