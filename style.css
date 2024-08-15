@@ -94,24 +94,22 @@ header img {
     font-weight: 400px;
 }
 
-.footer {
+.footer01 {
     display: flex;
     background-color: rgb(238, 62, 9);
     padding: 15px;
     justify-content: center;
 }
 
-.footer nav li {
+.footer01 nav ul {
     display: flex;
-    color: blue;
 }
 
-.footer nav ul li {
-    list-style: none;
+.footer01 nav ul li {
     margin-right: 10px;
 }
 
-.footer nav ul li a {
+.footer01 nav ul li a {
     color: blue;
     text-decoration: none;
 }
