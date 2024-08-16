@@ -27,7 +27,7 @@ header nav ul { /*chamamos nossa ul da header para modificar  */
     display: flex; /*tornando flex e fazendo ficar lado a lado*/
 }
 
-header ul li {
+header ul li {/*chamamos nossa (li) da header para modificar*/
 
     margin-right: 10px;/*alterando o espaçamento entre as ancoras*/
 }
@@ -99,6 +99,7 @@ header img { /*chamando a (img) para modificar*/
 }
 
 .sec02 p {/*chamando nosso (p) para modificar*/
+
     color: rgb(0, 0, 0);/*colocando uma cor*/
 
     font-size: 15px;/*alterando o tamanho da letra (p)*/
@@ -113,7 +114,8 @@ header img { /*chamando a (img) para modificar*/
     height: 350px;/*alterar a autura da (img) */
 }
 .sec03 {/*chamando nossa (sec03) para modificar*/
-    background-image: url(imagem/escavadeira04.jpg);
+
+    background-image: url(imagem/escavadeira04.jpg);/*colocando imagen de fundo*/
 
     padding: 350px;/*alterando o tamanho da nossa sec03*/
 
@@ -136,8 +138,10 @@ header img { /*chamando a (img) para modificar*/
     font-weight: 400px;/*tamanho da fonte palavra*/
 }
 .sec03 p {/*chamando nosso (p) dentro da sec03 para modificar*/
-    color: rgb(255, 255, 255);
-    font-size: 15px;
+
+    color: rgb(255, 255, 255);/*colocando cor no (p)*/
+
+    font-size: 15px;/*mexendo na tamanho da fonte*/
 
     margin: 15px;/*define a área da margem nos quatro lados do elemento*/
 
