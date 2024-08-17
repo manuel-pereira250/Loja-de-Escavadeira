@@ -17,9 +17,9 @@ header { /* header modificando o cabeçalho do site */
 
     padding: 20px;/*alterando o tamanho da nossa header*/
 
-    align-items: center;/*alinhando para o centro*/
+    align-items: center;/*alinhado no centro   vertical*/
 
-    justify-content: space-between;/*justificando o conteudo aos cantos da tela (esquerda e direita) tanto a img quanto as ancoras*/
+    justify-content: space-between;/*justificando o conteudo ao centro da tela  orizontal*/
 }
 
 header nav ul { /*chamamos nossa ul da header para modificar  */
@@ -39,6 +39,7 @@ header li a { /*chamamos nossa (a) que esta dentro do header para modificar*/
     color: white; /*colocamos uma cor nas ancoras*/
 }
 
+/*o hover permite que tenha alguma ação ao passar o mauze*/
 header nav ul li a:hover{
     color: blue;
     transition: 1s;
@@ -58,13 +59,13 @@ header img { /*chamando a (img) para modificar*/
 
     padding: 250px;/*alterando o tamanho da nossa sec01*/
 
-    justify-content: center;/*justificando o conteudo ao centro da tela*/
+    justify-content: center;/*justificando o conteudo ao centro da tela  orizontal*/
 
     background-image: url(imagem/escavadeira03.jpg);/*colocando uma img de fundo da tela*/
 
     background-repeat: no-repeat;/*fazendo a img não se repetir*/
     
-    align-items: center;/*alinhado no centro*/
+    align-items: center;/*alinhado no centro   vertical*/
 
     background-size: cover;/*usei para a img cobrir toda a tela*/
 
