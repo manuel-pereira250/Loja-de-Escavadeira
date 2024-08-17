@@ -39,6 +39,12 @@ header li a { /*chamamos nossa (a) que esta dentro do header para modificar*/
     color: white; /*colocamos uma cor nas ancoras*/
 }
 
+header nav ul li a:hover{
+    color: blue;
+    transition: 1s;
+}
+
+
 header img { /*chamando a (img) para modificar*/
 
     width: 250px;/*modificando a largura em (250px)*/
@@ -78,6 +84,21 @@ header img { /*chamando a (img) para modificar*/
     border-color: rgb(150, 2, 248);/*cor das bordas*/
 }
 
+/*o hover permite que tenha alguma ação ao passar o mauze*/
+.sec01 button:hover {
+
+    background-color: rgba(250, 190, 190, 0.527);
+
+    transition: 0.8s;
+
+    color: white;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    cursor: pointer;
+   
+}
+
 .sec02 {/*chamando a sec02 para modificar*/
 
     display: flex; /*tornando flex e fazendo ficar lado a lado*/
@@ -113,6 +134,14 @@ header img { /*chamando a (img) para modificar*/
 
     height: 350px;/*alterar a autura da (img) */
 }
+
+/*o hover permite que tenha alguma ação ao passar o mauze*/
+.sec02 img:hover {
+    width: 370px;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
 .sec03 {/*chamando nossa (sec03) para modificar*/
 
     background-image: url(imagem/escavadeira04.jpg);/*colocando imagen de fundo*/
@@ -172,7 +201,13 @@ header img { /*chamando a (img) para modificar*/
 
 .footer01 nav ul li a {/*chamando nossa (a) dentro do footer01 para modificar*/
 
-    color: blue;/*colocando cor na(a)*/
+    color: white;/*colocando cor na(a)*/
     
     text-decoration: none;/*removendo a linha de baixo das ancoras */
+}
+
+/*o hover permite que tenha alguma ação ao passar o mauze*/
+.footer01 nav ul li a:hover {
+    color: rgb(77, 74, 74);
+    transition: 1s;
 }
