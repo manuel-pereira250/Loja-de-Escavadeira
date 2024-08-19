@@ -221,6 +221,22 @@ header img { /*chamando a (img) para modificar*/
     transition: 1s;/*altera o tempo que aparece a cor*/
 }
 
-header i {
+footer i {/*estetizando icone*/
+
+    color: rgb(17, 6, 6);/*cores icone*/
     
+    font-size: 40px;/*tamanho do fundo*/
+
+    background-color: rgba(192, 192, 192, 0.295);/*cor de fundo do elemento*/
+
+    padding: 15px;/*respiro/preenchimento da cor de fundo*/
+
+    border-radius: 10px;/*arredondamento da caixa*/
+}
+
+footer i:hover {/*aplicando o efeito ao passar o mouse*/
+
+    background-color: rgba(0, 0, 255, 0.342);/*cor de fundo alterada*/
+
+    transition: 1s;/*transição do elemento*/
 }
