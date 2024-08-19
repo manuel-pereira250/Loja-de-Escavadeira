@@ -41,8 +41,10 @@ header li a { /*chamamos nossa (a) que esta dentro do header para modificar*/
 
 /*o hover permite que tenha alguma ação ao passar o mauze*/
 header nav ul li a:hover{
-    color: blue;
-    transition: 1s;
+
+    color: blue;/*cor da letra*/
+
+    transition: 1s;/*o tempo que demora para a cor aparecer*/
 }
 
 
@@ -88,15 +90,15 @@ header img { /*chamando a (img) para modificar*/
 /*o hover permite que tenha alguma ação ao passar o mauze*/
 .sec01 button:hover {
 
-    background-color: rgba(250, 190, 190, 0.527);
+    background-color: rgba(250, 190, 190, 0.527);/*cor de fundo do bottão*/
 
-    transition: 0.8s;
+    transition: 0.8s;/*faz com que demore o tanro que voce quiser*/
 
-    color: white;
+    color: white;/*cor da letra*/
 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;/*famila da letra mudando o visual*/
 
-    cursor: pointer;
+    cursor: pointer;/*mudando o cursor do mauze*/
    
 }
 
@@ -138,9 +140,13 @@ header img { /*chamando a (img) para modificar*/
 
 /*o hover permite que tenha alguma ação ao passar o mauze*/
 .sec02 img:hover {
-    width: 370px;
-    transition: 0.8s;
-    cursor: pointer;
+
+    width: 370px;/*alterando a largura*/
+
+    transition: 0.8s;/*tempo para aparecer as modificação*/
+
+    cursor: pointer;/*mudando o cursor do mauze*/
+
 }
 
 .sec03 {/*chamando nossa (sec03) para modificar*/
@@ -209,6 +215,12 @@ header img { /*chamando a (img) para modificar*/
 
 /*o hover permite que tenha alguma ação ao passar o mauze*/
 .footer01 nav ul li a:hover {
-    color: rgb(77, 74, 74);
-    transition: 1s;
+
+    color: rgb(77, 74, 74);/*altera a cor*/
+
+    transition: 1s;/*altera o tempo que aparece a cor*/
+}
+
+header i {
+    
 }
