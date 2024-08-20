@@ -276,33 +276,34 @@ footer i:hover {/*aplicando o efeito ao passar o mouse*/
 }
 
 .section-nova {
-    padding: 250px;
-    background-color: darkkhaki;
-   
-    justify-content: center;
+    padding: 250px;/*preenchimento de sessão*/
+    background-color: darkkhaki;/*cor de fundo*/
 }
 .div-pai{/*div pai - dentro dele existe 3 div*/
     display: flex;/*tornando flex e deixando lado a lado*/
     justify-content: center;/*justificando os itens ao centro*/
-    
+    margin-right: 20px;/*espaçamento entre as caixas (div)*/
+    margin-bottom: 20px;/*espaçamento entre a (div pai) e a (div pai2)*/
 }
 .div-pai div {/*estetizando das caixas (div filhos)*/
     width: 150px;/*largura da caixa*/
     height: 250px;/*altura da caixa*/
     background-color: red;/*cor de fundo*/
-    margin-right: 20px;
+    margin-right: 20px;/*espaçamento entre as caixas (div)*/
+    border-radius: 15px;/*arredondando a borda*/
 }
-.div-pai2 {/**/
-    display: flex;
-    justify-content: center;
-    margin-right: 20px;
+.div-pai2 {/*estelizando a div pai2 - */
+    display: flex;/*tornando flex e deixando lado a lado*/
+    justify-content: center;/*justificando os itens ao centro*/
+    margin-right: 20px;/*espaçamento entre as caixas (div)*/
 }
 
-.div-pai2 div {
-    width: 150px;
-    height: 250px;
-    background-color: red;
-    margin-right: 20px;
+.div-pai2 div {/**/
+    width: 150px;/*largura da caixa*/
+    height: 250px;/*altura da caixa*/
+    background-color: red;/*cor de fundo*/
+    margin-right: 20px;/*espaçamento entre as caixas (div)*/
+    border-radius: 15px;/*arredondando a borda*/
 }
 
 /*google fonts Oswald*/
