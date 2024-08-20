@@ -281,9 +281,25 @@ footer i:hover {/*aplicando o efeito ao passar o mouse*/
     display: flex;
     justify-content: center;
 }
-.section-nova div {
+.div-pai{
+    display: flex;
+
+}
+.div-pai div {
     width: 150px;
     height: 250px;
+    background-color: red;
+    margin-right: 20px;
+}
+.div-pai2 {
+    display: flex;
+}
+
+.div-pai2 div {
+    width: 150px;
+    height: 250px;
+    background-color: red;
+    margin-right: 20px;
 }
 
 /*google fonts Oswald*/
