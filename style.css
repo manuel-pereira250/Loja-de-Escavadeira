@@ -275,4 +275,15 @@ footer i:hover {/*aplicando o efeito ao passar o mouse*/
     padding: 250px;
 }
 
+.section-nova {
+    padding: 250px;
+    background-color: darkkhaki;
+    display: flex;
+    justify-content: center;
+}
+.section-nova div {
+    width: 150px;
+    height: 250px;
+}
+
 /*google fonts Oswald*/
