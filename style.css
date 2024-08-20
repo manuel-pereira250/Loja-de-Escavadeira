@@ -240,3 +240,39 @@ footer i:hover {/*aplicando o efeito ao passar o mouse*/
 
     transition: 1s;/*transição do elemento*/
 }
+
+/*ESTILIZAÇÃO DA TELA 2*/
+
+
+.section-tela2{
+    background-image: url(imagem/escavadeira20.jpg);/*colocando imagem*/
+    padding: 250px;/*preenchimento*/
+    background-position: center;/*posicionando no centro a imagem*/
+    background-repeat: no-repeat;/*para não se repetir*/
+    background-size: cover;/*colocando a imagem para cobrir os espasos*/
+}
+
+.section-tela2 p {
+    font-size: 40px;
+    color: white;
+    font-weight: 800;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.section-tela2 p span {
+    color: yellow;
+    font-weight: bold;
+}
+
+.section-nova {
+    background-color: beige;
+    padding: 250px;
+}
+
+.section-atual{
+    background-color: aqua;
+    padding: 250px;
+}
+
+/*google fonts Oswald*/
