@@ -278,21 +278,24 @@ footer i:hover {/*aplicando o efeito ao passar o mouse*/
 .section-nova {
     padding: 250px;
     background-color: darkkhaki;
-    display: flex;
+   
     justify-content: center;
 }
-.div-pai{
-    display: flex;
-
+.div-pai{/*div pai - dentro dele existe 3 div*/
+    display: flex;/*tornando flex e deixando lado a lado*/
+    justify-content: center;/*justificando os itens ao centro*/
+    
 }
-.div-pai div {
-    width: 150px;
-    height: 250px;
-    background-color: red;
+.div-pai div {/*estetizando das caixas (div filhos)*/
+    width: 150px;/*largura da caixa*/
+    height: 250px;/*altura da caixa*/
+    background-color: red;/*cor de fundo*/
     margin-right: 20px;
 }
-.div-pai2 {
+.div-pai2 {/**/
     display: flex;
+    justify-content: center;
+    margin-right: 20px;
 }
 
 .div-pai2 div {
