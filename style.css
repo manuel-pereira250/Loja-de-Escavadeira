@@ -286,9 +286,8 @@ footer i:hover {/*aplicando o efeito ao passar o mouse*/
     margin-bottom: 20px;/*espaçamento entre a (div pai) e a (div pai2)*/
 }
 .div-pai div {/*estetizando das caixas (div filhos)*/
-    width: 150px;/*largura da caixa*/
+    width: 250px;/*largura da caixa*/
     height: 250px;/*altura da caixa*/
-    background-color: red;/*cor de fundo*/
     margin-right: 20px;/*espaçamento entre as caixas (div)*/
     border-radius: 15px;/*arredondando a borda*/
 }
@@ -299,11 +298,48 @@ footer i:hover {/*aplicando o efeito ao passar o mouse*/
 }
 
 .div-pai2 div {/**/
-    width: 150px;/*largura da caixa*/
+    width: 250px;/*largura da caixa*/
     height: 250px;/*altura da caixa*/
-    background-color: red;/*cor de fundo*/
+    background-color: rgb(0, 255, 234);/*cor de fundo*/
     margin-right: 20px;/*espaçamento entre as caixas (div)*/
     border-radius: 15px;/*arredondando a borda*/
+}
+.div-pai .div1{
+    background-image: url(imagem/escava\ pequena.jfif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.div-pai .div2{
+    background-image: url(imagem/escava\ media.jfif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.div-pai .div3{
+    background-image: url(imagem/escava\ grande.jfif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.div-pai2 .div4{
+    background-image: url(imagem/escava\ de\ demolir.jfif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.div-pai2 .div5{
+    background-image: url(imagem/mini\ escava.jfif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.div-pai2 .div6{
+    background-image: url(imagem/escavadeira\ escava.jfif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 /*google fonts Oswald*/
