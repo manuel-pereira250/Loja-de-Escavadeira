@@ -253,26 +253,26 @@ footer i:hover {/*aplicando o efeito ao passar o mouse*/
 }
 
 .section-tela2 p {
-    font-size: 40px;
-    color: white;
-    font-weight: 800;
+    font-size: 40px;/*tamanho do fundo*/
+    color: white;/*colocando cor no p*/
+    font-weight: 800;/*colocando um peso na letra*/
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
 .section-tela2 p span {
-    color: yellow;
-    font-weight: bold;
+    color: yellow;/*colocando cor no span*/
+    font-weight: bold;/*colocando um peso na letra*/
 }
 
 .section-nova {
-    background-color: beige;
-    padding: 250px;
+    padding: 250px;/*preenchimento de sessão*/
+    background-color: beige;/*cor de fundo*/
 }
 
 .section-atual{
-    background-color: aqua;
-    padding: 250px;
+    padding: 250px;/*preenchimento de sessão*/
+    background-color: aqua;/*cor de fundo*/
 }
 
 .section-nova {
@@ -289,7 +289,6 @@ footer i:hover {/*aplicando o efeito ao passar o mouse*/
     width: 250px;/*largura da caixa*/
     height: 250px;/*altura da caixa*/
     margin-right: 20px;/*espaçamento entre as caixas (div)*/
-    border-radius: 15px;/*arredondando a borda*/
 }
 .div-pai2 {/*estelizando a div pai2 - */
     display: flex;/*tornando flex e deixando lado a lado*/
@@ -304,83 +303,89 @@ footer i:hover {/*aplicando o efeito ao passar o mouse*/
     margin-right: 20px;/*espaçamento entre as caixas (div)*/
 }
 .div-pai .div1{
-    background-image: url(imagem/escava\ pequena.jfif);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: url(imagem/escava\ pequena.jfif);/*colocando imagem*/
+    background-size: cover;/*colocando a imagem para cobrir os espasos*/
+    background-position: center;/*posicionando no centro a imagem*/
+    background-repeat: no-repeat;/*para não se repetir*/
 }
 
 .div-pai .div2{
-    background-image: url(imagem/escava\ media.jfif);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: url(imagem/escava\ media.jfif);/*colocando imagem*/
+    background-size: cover;/*colocando a imagem para cobrir os espasos*/
+    background-position: center;/*posicionando no centro a imagem*/
+    background-repeat: no-repeat;/*para não se repetir*/
 }
 .div-pai .div3{
-    background-image: url(imagem/escava\ grande.jfif);
-    background-size: cover;
-    background-position: center;
+    background-image: url(imagem/escava\ grande.jfif);/*colocando imagem*/
+    background-size: cover;/*colocando a imagem para cobrir os espasos*/
+    background-position: center;/*posicionando no centro a imagem*/
     background-repeat: no-repeat;
 }
 .div-pai2 .div4{
-    background-image: url(imagem/escava\ de\ demolir.jfif);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: url(imagem/escava\ de\ demolir.jfif);/*colocando imagem*/
+    background-size: cover;/*colocando a imagem para cobrir os espasos*/
+    background-position: center;/*posicionando no centro a imagem*/
+    background-repeat: no-repeat;/*para não se repetir*/
 }
 .div-pai2 .div5{
-    background-image: url(imagem/mini\ escava.jfif);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: url(imagem/mini\ escava.jfif);/*colocando imagem*/
+    background-size: cover;/*colocando a imagem para cobrir os espasos*/
+    background-position: center;/*posicionando no centro a imagem*/
+    background-repeat: no-repeat;/*para não se repetir*/
 }
 .div-pai2 .div6{
-    background-image: url(imagem/escavadeira\ escava.jfif);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: url(imagem/escavadeira\ escava.jfif);/*colocando imagem*/
+    background-size: cover;/*colocando a imagem para cobrir os espasos*/
+    background-position: center;/*posicionando no centro a imagem*/
+    background-repeat: no-repeat;/*para não se repetir*/
 }
 
 .div1:hover{
-    width: 260px;
-    height: 260px;
-    transition: 1s;
+    width: 260px;/*largura da caixa*/
+    height: 260px;/*altura da caixa*/
+    transition: 1s;/*transição do elemento*/
     border-radius: 30px;/*arredondando a borda*/
-    background-image: url(imagem/escava\ de\ demolir.jfif);
+    background-image: url(imagem/escava\ de\ demolir.jfif);/*colocando imagem para quando passar o mauze mudar a imagem*/
 }
+
 .div2:hover{
-    width: 260px;
-    height: 260px;
-    transition: 1s;
+    width: 260px;/*largura da caixa*/
+    height: 260px;/*altura da caixa*/
+    transition: 1s;/*transição do elemento*/
     border-radius: 30px;/*arredondando a borda*/
-    background-image: url(imagem/escavadeira\ escava.jfif);
+    background-image: url(imagem/escavadeira\ escava.jfif);/*colocando imagem para quando passar o mauze mudar a imagem*/
 }
+
 .div3:hover{
-    width: 260px;
-    height: 260px;
-    transition: 1s;
+    width: 260px;/*largura da caixa*/
+    height: 260px;/*altura da caixa*/
+    transition: 1s;/*transição do elemento*/
     border-radius: 30px;/*arredondando a borda*/
-    background-image: url(imagem/escava\ pequena.jfif);
+    background-image: url(imagem/escava\ pequena.jfif);/*colocando imagem para quando passar o mauze mudar a imagem*/
 }
+
 .div4:hover{
-    width: 260px;
-    height: 260px;
-    transition: 1s;
+    width: 260px;/*largura da caixa*/
+    height: 260px;/*altura da caixa*/
+    transition: 1s;/*transição do elemento*/
     border-radius: 30px;/*arredondando a borda*/
-    background-image: url(imagem/escava\ grande.jfif);
+    background-image: url(imagem/escava\ grande.jfif);/*colocando imagem para quando passar o mauze mudar a imagem*/
 }
+
 .div5:hover{
-    width: 260px;
-    height: 260px;
-    transition: 1s;
+    width: 260px;/*largura da caixa*/
+    height: 260px;/*altura da caixa*/
+    transition: 1s;/*transição do elemento*/
     border-radius: 30px;/*arredondando a borda*/
-    background-image: url(imagem/escava\ media.jfif);
+    background-image: url(imagem/escava\ media.jfif);/*colocando imagem para quando passar o mauze mudar a imagem*/
 }
+
 .div6:hover{
-    width: 260px;
-    height: 260px;
-    transition: 1s;
+    width: 260px;/*largura da caixa*/
+    height: 260px;/*altura da caixa*/
+    transition: 1s;/*transição do elemento*/
     border-radius: 30px;/*arredondando a borda*/
-    background-image: url(imagem/escava\ de\ demolir.jfif);
+    background-image: url(imagem/escava\ de\ demolir.jfif);/*colocando imagem para quando passar o mauze mudar a imagem*/
 }
+
 /*google fonts Oswald*/
