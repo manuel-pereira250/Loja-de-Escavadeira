@@ -15,7 +15,7 @@ header { /* header modificando o cabeçalho do site */
 
     background-color: #5e9fa3;/*cor de fundo*/
 
-    padding: 20px;/*alterando o tamanho da nossa header*/
+    padding: 0px;/*alterando o tamanho da nossa header*/
 
     align-items: center;/*alinhado no centro   vertical*/
 
@@ -50,8 +50,7 @@ header nav ul li a:hover{
 
 header img { /*chamando a (img) para modificar*/
 
-    width: 250px;/*modificando a largura em (250px)*/
-
+    width: 100px;/*modificando a largura em (250px)*/
     height: auto;/* deixando automatico a nossa altura*/
 }
 
@@ -277,8 +276,10 @@ footer i:hover {/*aplicando o efeito ao passar o mouse*/
 
 .section-nova {/*chamando a sessão */
     padding: 250px;/*preenchimento de sessão*/
-    background: linear-gradient(180deg, #f69a0b 8.33%, #9b0800 100%);/*degrader no meio do site*/
+    background: linear-gradient(180deg, #f69a0b 8.33%, #9b0800 100%);/*degrader no meio do site atras das imagem*/
 }
+
+/* Bloco 1 */
 .div-pai{/*div pai - dentro dele existe 3 div*/
     display: flex;/*tornando flex e deixando lado a lado*/
     justify-content: center;/*justificando os itens ao centro*/
@@ -290,6 +291,8 @@ footer i:hover {/*aplicando o efeito ao passar o mouse*/
     height: 250px;/*altura da caixa*/
     margin-right: 20px;/*espaçamento entre as caixas (div)*/
 }
+
+/* bloco 2 */
 .div-pai2 {/*estelizando a div pai2 - */
     display: flex;/*tornando flex e deixando lado a lado*/
     justify-content: center;/*justificando os itens ao centro*/
@@ -304,38 +307,38 @@ footer i:hover {/*aplicando o efeito ao passar o mouse*/
 }
 .div-pai .div1{/*chamando a (div-pai2)especificando qual que eu quero mexer(.div1)*/
     background-image: url(imagem/escava\ pequena.jfif);/*colocando imagem*/
-    background-size: cover;/*colocando a imagem para cobrir os espasos*/
+    background-size: cover;/*colocando a imagem para cobrir os espasos tamanho*/
     background-position: center;/*posicionando no centro a imagem*/
     background-repeat: no-repeat;/*para não se repetir*/
 }
 
 .div-pai .div2{/*chamando a (div-pai2)especificando qual que eu quero mexer(.div2)*/
     background-image: url(imagem/escava\ media.jfif);/*colocando imagem*/
-    background-size: cover;/*colocando a imagem para cobrir os espasos*/
+    background-size: cover;/*colocando a imagem para cobrir os espasos tamanho*/
     background-position: center;/*posicionando no centro a imagem*/
     background-repeat: no-repeat;/*para não se repetir*/
 }
 .div-pai .div3{/*chamando a (div-pai2)especificando qual que eu quero mexer(.div3)*/
     background-image: url(imagem/escava\ grande.jfif);/*colocando imagem*/
-    background-size: cover;/*colocando a imagem para cobrir os espasos*/
+    background-size: cover;/*colocando a imagem para cobrir os espasos tamanho*/
     background-position: center;/*posicionando no centro a imagem*/
     background-repeat: no-repeat;
 }
 .div-pai2 .div4{/*chamando a (div-pai2)especificando qual que eu quero mexer(.div4)*/
     background-image: url(imagem/escava\ de\ demolir.jfif);/*colocando imagem*/
-    background-size: cover;/*colocando a imagem para cobrir os espasos*/
+    background-size: cover;/*colocando a imagem para cobrir os espasos tamanho*/
     background-position: center;/*posicionando no centro a imagem*/
     background-repeat: no-repeat;/*para não se repetir*/
 }
 .div-pai2 .div5{/*chamando a (div-pai2)especificando qual que eu quero mexer(.div5)*/
     background-image: url(imagem/mini\ escava.jfif);/*colocando imagem*/
-    background-size: cover;/*colocando a imagem para cobrir os espasos*/
+    background-size: cover;/*colocando a imagem para cobrir os espasos tamanho*/
     background-position: center;/*posicionando no centro a imagem*/
     background-repeat: no-repeat;/*para não se repetir*/
 }
 .div-pai2 .div6{/*chamando a (div-pai2)especificando qual que eu quero mexer(.div6)*/
     background-image: url(imagem/escavadeira\ escava.jfif);/*colocando imagem*/
-    background-size: cover;/*colocando a imagem para cobrir os espasos*/
+    background-size: cover;/*colocando a imagem para cobrir os espasos tamanho*/
     background-position: center;/*posicionando no centro a imagem*/
     background-repeat: no-repeat;/*para não se repetir*/
 }
@@ -387,5 +390,25 @@ footer i:hover {/*aplicando o efeito ao passar o mouse*/
     border-radius: 30px;/*arredondando a borda*/
     background-image: url(imagem/escava\ de\ demolir.jfif);/*colocando imagem para quando passar o mauze mudar a imagem*/
 }
-
+.section-ultima{
+    padding: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    background: linear-gradient(360deg, #f69a0b 8.33%, #9b0800 100%);
+}
+.section-ultima div h2{
+    color: white;
+    margin: 20px;
+    font-size: 25px;
+}
+.section-ultima div p {
+    color: white;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.div-iframe iframe{
+    border-radius: 10px;
+    margin-right: 30px;
+}
 /*google fonts Oswald*/
