@@ -391,24 +391,35 @@ footer i:hover {/*aplicando o efeito ao passar o mouse*/
     background-image: url(imagem/escava\ de\ demolir.jfif);/*colocando imagem para quando passar o mauze mudar a imagem*/
 }
 .section-ultima{
-    padding: 200px;
-    display: flex;
+    padding: 200px;/*preenchimento de sessão*/
+    display: flex;/*tornando flex e deixando lado a lado*/
     justify-content: space-evenly;
-    background: linear-gradient(360deg, #f69a0b 8.33%, #9b0800 100%);
+    background: linear-gradient(360deg, #f69a0b 8.33%, #9b0800 100%);/*degrader no meio do site atras das imagem*/
 }
-.section-ultima div h2{
-    color: white;
+.div-iframe div h2{
+    color: white;/*colocando cor no titulo secundario*/
     margin: 20px;
     font-size: 25px;
 }
 .section-ultima div p {
-    color: white;
-    margin: 20px;
-    font-size: 20px;
-    font-weight: 400;
+    color: white;/*colocando cor no paragrafo*/
+    margin: 20px;/*define a área da margem nos quatro lados do elemento*/
+    font-size: 20px;/*alterando o tamanho da lentra*/
+    font-weight: 400;/*peso da letra*/
 }
 .div-iframe iframe{
-    border-radius: 10px;
+    border-radius: 10px;/*aredondamento da borda*/
     margin-right: 30px;
+}
+.rodape{
+    padding: 100px;
+    background-color: rgb(69, 2, 69);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center
+}
+
+.div-line img{
+    width: 150px;
 }
 /*google fonts Oswald*/
