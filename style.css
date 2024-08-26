@@ -220,26 +220,6 @@ header img { /*chamando a (img) para modificar*/
     transition: 1s;/*altera o tempo que aparece a cor*/
 }
 
-footer i {/*estetizando icone*/
-
-    color: rgb(17, 6, 6);/*cores icone*/
-    
-    font-size: 40px;/*tamanho do fundo*/
-
-    background-color: rgba(192, 192, 192, 0.295);/*cor de fundo do elemento*/
-
-    padding: 15px;/*respiro/preenchimento da cor de fundo*/
-
-    border-radius: 10px;/*arredondamento da caixa*/
-}
-
-footer i:hover {/*aplicando o efeito ao passar o mouse*/
-
-    background-color: rgba(0, 0, 255, 0.342);/*cor de fundo alterada*/
-
-    transition: 1s;/*transição do elemento*/
-}
-
 /*ESTILIZAÇÃO DA TELA 2*/
 
 
@@ -421,5 +401,34 @@ footer i:hover {/*aplicando o efeito ao passar o mouse*/
 
 .div-line img{
     width: 150px;
+
 }
+.div-line .line{
+    width: 110px;/*largura da linha*/
+    height: 1.5px;/*altura da linha*/
+    background-color: aqua;/*cor de fundo da linha*/
+    margin-top: 12px;/*distancia entre a linha e o icone*/
+}
+.div-icons a {
+    text-decoration: none;/*aqui estamos removendo estilo padrão das ãncora*/
+    color: rgb(231, 6, 6);/*cor da ancora*/
+    font-size: 35px;/*tamanho da letra*/
+}
+.div-icons a i{
+    background-color: #1b1818;/*atribuindo uma cor de fundo aos nossos icones*/
+    padding: 15px;/*aplicando um respiro dentro dos icone*/
+    font-size: 45px;/*tamanho da letra*/
+}
+.div-icons h2 {/*estilizando o titulo do rodapé*/
+    color: white;/*cor da letra */
+    font-size: 30px;/*tamanho da letra*/
+    margin-bottom: 20px;/*margin inferior em relação o texto*/
+}
+.rodape i:hover {/*aplicando o efeito ao passar o mouse*/
+
+    background-color: rgba(0, 0, 255, 0.342);/*cor de fundo alterada*/
+    border-radius: 10px;
+    transition: 1s;/*transição do elemento*/
+}
+
 /*google fonts Oswald*/
