@@ -212,14 +212,18 @@ header img { /*chamando a (img) para modificar*/
     text-decoration: none;/*removendo a linha de baixo das ancoras */
 }
 
-/*o hover permite que tenha alguma ação ao passar o mauze*/
-.footer01 nav ul li a:hover {
-
-    color: rgb(77, 74, 74);/*altera a cor*/
-
-    transition: 1s;/*altera o tempo que aparece a cor*/
+.footer01 i:hover {
+    background-color: #9b0800;
+    border-radius: 15px;
+    transition: 1s;
 }
-
+.footer01{
+    padding: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(69, 2, 69);
+}
 /*ESTILIZAÇÃO DA TELA 2*/
 
 
