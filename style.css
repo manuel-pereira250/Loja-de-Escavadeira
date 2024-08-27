@@ -1,215 +1,310 @@
-*{  /* * = pegando tudo da pagina*/
+* {
+    /* * = pegando tudo da pagina*/
 
-    padding: 0;/*deixando tudo encostado*/
+    padding: 0;
+    /*deixando tudo encostado*/
 
-    margin: 0;/*deixando tudo encostado*/
+    margin: 0;
+    /*deixando tudo encostado*/
 
-    list-style: none;/*sem nenhum estilo nas listas*/
+    list-style: none;
+    /*sem nenhum estilo nas listas*/
 
-    font-family: Georgia, 'Times New Roman', Times, serif;/*colocando uma fonte familia para toda a pagina*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /*colocando uma fonte familia para toda a pagina*/
 }
 
-header { /* header modificando o cabeçalho do site */
+header {
+    /* header modificando o cabeçalho do site */
 
-    display: flex;/*tornando flex e fazendo ficar lado a lado*/
+    display: flex;
+    /*tornando flex e fazendo ficar lado a lado*/
 
-    background-color: #5e9fa3;/*cor de fundo*/
+    background-color: #5e9fa3;
+    /*cor de fundo*/
 
-    padding: 0px;/*alterando o tamanho da nossa header*/
+    padding: 0px;
+    /*alterando o tamanho da nossa header*/
 
-    align-items: center;/*alinhado no centro   vertical*/
+    align-items: center;
+    /*alinhado no centro   vertical*/
 
-    justify-content: space-between;/*justificando o conteudo ao centro da tela  orizontal*/
+    justify-content: space-between;
+    /*justificando o conteudo ao centro da tela  orizontal*/
 }
 
-header nav ul { /*chamamos nossa ul da header para modificar  */
+header nav ul {
+    /*chamamos nossa ul da header para modificar  */
 
-    display: flex; /*tornando flex e fazendo ficar lado a lado*/
+    display: flex;
+    /*tornando flex e fazendo ficar lado a lado*/
 }
 
-header ul li {/*chamamos nossa (li) da header para modificar*/
+header ul li {
+    /*chamamos nossa (li) da header para modificar*/
 
-    margin-right: 10px;/*alterando o espaçamento entre as ancoras*/
+    margin-right: 45px;
+    /*alterando o espaçamento entre as ancoras*/
 }
 
-header li a { /*chamamos nossa (a) que esta dentro do header para modificar*/
+header li a {
+    /*chamamos nossa (a) que esta dentro do header para modificar*/
 
-    text-decoration: none;/*removendo a linha de baixo das ancoras */
+    text-decoration: none;
+    /*removendo a linha de baixo das ancoras */
 
-    color: white; /*colocamos uma cor nas ancoras*/
+    color: white;
+    /*colocamos uma cor nas ancoras*/
 }
 
 /*o hover permite que tenha alguma ação ao passar o mauze*/
-header nav ul li a:hover{
+header nav ul li a:hover {
 
-    color: blue;/*cor da letra*/
+    color: blue;
+    /*cor da letra*/
 
-    transition: 1s;/*o tempo que demora para a cor aparecer*/
+    transition: 1s;
+    /*o tempo que demora para a cor aparecer*/
 }
 
 
-header img { /*chamando a (img) para modificar*/
+header img {
+    /*chamando a (img) para modificar*/
 
-    width: 100px;/*modificando a largura em (250px)*/
-    height: auto;/* deixando automatico a nossa altura*/
+    width: 100px;
+    /*modificando a largura em (250px)*/
+    height: auto;
+    /* deixando automatico a nossa altura*/
+}
+#dompedro{/*uma # serve para chamar uma id*/
+
+}
+.sec01 {
+    /*chamando a sec01 para stetizar*/
+
+    display: flex;
+    /*tornando flex e fazendo ficar lado a lado*/
+
+    padding: 250px;
+    /*alterando o tamanho da nossa sec01*/
+
+    justify-content: center;
+    /*justificando o conteudo ao centro da tela  orizontal*/
+
+    background-image: url(imagem/escavadeira03.jpg);
+    /*colocando uma img de fundo da tela*/
+
+    background-repeat: no-repeat;
+    /*fazendo a img não se repetir*/
+
+    align-items: center;
+    /*alinhado no centro   vertical*/
+
+    background-size: cover;
+    /*usei para a img cobrir toda a tela*/
+
+    background-position: center;
+    /*colocando a no centro*/
 }
 
-.sec01 {/*chamando a sec01 para stetizar*/
+.sec01 button {
+    /*chamando o (butão) que esta na sec01*/
 
-    display: flex;/*tornando flex e fazendo ficar lado a lado*/
+    width: 150px;
+    /*alterar o tamanho do (butão)*/
 
-    padding: 250px;/*alterando o tamanho da nossa sec01*/
+    height: 40px;
+    /*alterar a autura do botton */
 
-    justify-content: center;/*justificando o conteudo ao centro da tela  orizontal*/
+    border-radius: 10px;
+    /*deixar o botão mais redondo*/
 
-    background-image: url(imagem/escavadeira03.jpg);/*colocando uma img de fundo da tela*/
+    background-color: rgba(255, 255, 255, 0.527);
+    /*cor de fundo*/
 
-    background-repeat: no-repeat;/*fazendo a img não se repetir*/
-    
-    align-items: center;/*alinhado no centro   vertical*/
-
-    background-size: cover;/*usei para a img cobrir toda a tela*/
-
-    background-position: center;/*colocando a no centro*/
-}
-
-.sec01 button {/*chamando o (butão) que esta na sec01*/
-
-    width: 150px;/*alterar o tamanho do (butão)*/  
-
-    height: 40px;/*alterar a autura do botton */
-
-    border-radius: 10px; /*deixar o botão mais redondo*/
-
-    background-color: rgba(255, 255, 255, 0.527);/*cor de fundo*/ 
-
-    border-color: rgb(150, 2, 248);/*cor das bordas*/
+    border-color: rgb(150, 2, 248);
+    /*cor das bordas*/
 }
 
 /*o hover permite que tenha alguma ação ao passar o mauze*/
 .sec01 button:hover {
 
-    background-color: rgba(250, 190, 190, 0.527);/*cor de fundo do bottão*/
+    background-color: rgba(250, 190, 190, 0.527);
+    /*cor de fundo do bottão*/
 
-    transition: 0.8s;/*faz com que demore o tanro que voce quiser*/
+    transition: 0.8s;
+    /*faz com que demore o tanro que voce quiser*/
 
-    color: white;/*cor da letra*/
+    color: white;
+    /*cor da letra*/
 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;/*famila da letra mudando o visual*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*famila da letra mudando o visual*/
 
-    cursor: pointer;/*mudando o cursor do mauze*/
-   
+    cursor: pointer;
+    /*mudando o cursor do mauze*/
+
 }
 
-.sec02 {/*chamando a sec02 para modificar*/
+.sec02 {
+    /*chamando a sec02 para modificar*/
 
-    display: flex; /*tornando flex e fazendo ficar lado a lado*/
+    display: flex;
+    /*tornando flex e fazendo ficar lado a lado*/
 
-    padding: 250px;/*alterando o tamanho da nossa sec02*/
+    padding: 250px;
+    /*alterando o tamanho da nossa sec02*/
 
-    background-color: #dcd1b4;/*cor de fundo*/
+    background-color: #dcd1b4;
+    /*cor de fundo*/
 
-    justify-content: space-evenly;/*justificando para lainhar o conteudo do sec02 */
+    justify-content: space-evenly;
+    /*justificando para lainhar o conteudo do sec02 */
 }
 
-.sec02 h2 {/*chamando (h2) dentro da sec02 para costomizar*/
+.sec02 h2 {
+    /*chamando (h2) dentro da sec02 para costomizar*/
 
-    color: rgb(0, 0, 0);/*colocando cor*/
+    color: rgb(0, 0, 0);
+    /*colocando cor*/
 
-    font-size: 20px;/*alterando o tamanho da lentra*/
+    font-size: 20px;
+    /*alterando o tamanho da lentra*/
 
-    margin: 15px;/*define a área da margem nos quatro lados do elemento*/
+    margin: 15px;
+    /*define a área da margem nos quatro lados do elemento*/
 }
 
-.sec02 p {/*chamando nosso (p) para modificar*/
+.sec02 p {
+    /*chamando nosso (p) para modificar*/
 
-    color: rgb(0, 0, 0);/*colocando uma cor*/
+    color: rgb(0, 0, 0);
+    /*colocando uma cor*/
 
-    font-size: 15px;/*alterando o tamanho da letra (p)*/
+    font-size: 15px;
+    /*alterando o tamanho da letra (p)*/
 
-    margin: 15px;/*define a área da margem nos quatro lados do elemento*/
+    margin: 15px;
+    /*define a área da margem nos quatro lados do elemento*/
 }
 
-.sec02 img {/*chamando nosssa (img) dentro da sec02 para modificar*/
+.sec02 img {
+    /*chamando nosssa (img) dentro da sec02 para modificar*/
 
-    width: 350px;/*alterar o tamanho da (img)*/
+    width: 350px;
+    /*alterar o tamanho da (img)*/
 
-    height: 350px;/*alterar a autura da (img) */
+    height: 350px;
+    /*alterar a autura da (img) */
 }
 
 /*o hover permite que tenha alguma ação ao passar o mauze*/
 .sec02 img:hover {
 
-    width: 370px;/*alterando a largura*/
+    width: 370px;
+    /*alterando a largura*/
 
-    transition: 0.8s;/*tempo para aparecer as modificação*/
+    transition: 0.8s;
+    /*tempo para aparecer as modificação*/
 
-    cursor: pointer;/*mudando o cursor do mauze*/
-
-}
-
-.sec03 {/*chamando nossa (sec03) para modificar*/
-
-    background-image: url(imagem/escavadeira04.jpg);/*colocando imagen de fundo*/
-
-    padding: 350px;/*alterando o tamanho da nossa sec03*/
-
-    background-repeat: no-repeat;/*fazendo a img não se repetir*/
-
-    background-size: cover;/*tamanho do plano de fundo*/
-
-    background-position: bottom;/*mexe na posição inicial da imagen*/
-
-    background-attachment: fixed;/*fixar a imagen para não sair do lugar*/
-}
-.sec03 h2 {/*chamando nossa (h2) dentro da sec03 para modificar*/
-
-    color: white;/*colocando cor no (h2)*/
-
-    font-size: 15px;/*tamanho da fonte*/
-
-    margin: 15px;/*define a área da margem nos quatro lados do elemento*/
-
-    font-weight: 400px;/*tamanho da fonte palavra*/
-}
-.sec03 p {/*chamando nosso (p) dentro da sec03 para modificar*/
-
-    color: rgb(255, 255, 255);/*colocando cor no (p)*/
-
-    font-size: 15px;/*mexendo na tamanho da fonte*/
-
-    margin: 15px;/*define a área da margem nos quatro lados do elemento*/
-
-    font-weight: 400px;/*tamanho da fonte palavra*/
-}
-
-.footer01 {/*chamando nosso (footer01) para modificar*/
-
-    display: flex; /*tornando flex e fazendo ficar lado a lado*/
-
-    background-color: #f87e7b;/*cor de fundo*/
-
-    padding: 15px;/*alterando o tamanho da nossa footer01*/
-
-    justify-content: center;/*alinhando para o centro*/
-}
-
-.footer01 nav ul {/*chamando nossa (ul) dentro do footer01 para modificar*/
-
-    display: flex;/*tornando flex e fazendo ficar lado a lado*/
+    cursor: pointer;
+    /*mudando o cursor do mauze*/
 
 }
 
-.footer01 nav ul li {/*chamando nossa (li) dentro do footer01 para modificar*/
+.sec03 {
+    /*chamando nossa (sec03) para modificar*/
 
-    margin-right: 10px;/*alterando o espaçamento entre as ancoras*/
+    background-image: url(imagem/escavadeira04.jpg);
+    /*colocando imagen de fundo*/
+
+    padding: 350px;
+    /*alterando o tamanho da nossa sec03*/
+
+    background-repeat: no-repeat;
+    /*fazendo a img não se repetir*/
+
+    background-size: cover;
+    /*tamanho do plano de fundo*/
+
+    background-position: bottom;
+    /*mexe na posição inicial da imagen*/
+
+    background-attachment: fixed;
+    /*fixar a imagen para não sair do lugar*/
 }
 
-.footer01 nav ul li a {/*chamando nossa (a) dentro do footer01 para modificar*/
+.sec03 h2 {
+    /*chamando nossa (h2) dentro da sec03 para modificar*/
 
-    color: white;/*colocando cor na(a)*/
-    
-    text-decoration: none;/*removendo a linha de baixo das ancoras */
+    color: white;
+    /*colocando cor no (h2)*/
+
+    font-size: 15px;
+    /*tamanho da fonte*/
+
+    margin: 15px;
+    /*define a área da margem nos quatro lados do elemento*/
+
+    font-weight: 400px;
+    /*tamanho da fonte palavra*/
+}
+
+.sec03 p {
+    /*chamando nosso (p) dentro da sec03 para modificar*/
+
+    color: rgb(255, 255, 255);
+    /*colocando cor no (p)*/
+
+    font-size: 15px;
+    /*mexendo na tamanho da fonte*/
+
+    margin: 15px;
+    /*define a área da margem nos quatro lados do elemento*/
+
+    font-weight: 400px;
+    /*tamanho da fonte palavra*/
+}
+
+.footer01 {
+    /*chamando nosso (footer01) para modificar*/
+
+    display: flex;
+    /*tornando flex e fazendo ficar lado a lado*/
+
+    background-color: #f87e7b;
+    /*cor de fundo*/
+
+    padding: 15px;
+    /*alterando o tamanho da nossa footer01*/
+
+    justify-content: center;
+    /*alinhando para o centro*/
+}
+
+.footer01 nav ul {
+    /*chamando nossa (ul) dentro do footer01 para modificar*/
+
+    display: flex;
+    /*tornando flex e fazendo ficar lado a lado*/
+
+}
+
+.footer01 nav ul li {
+    /*chamando nossa (li) dentro do footer01 para modificar*/
+
+    margin-right: 10px;
+    /*alterando o espaçamento entre as ancoras*/
+}
+
+.footer01 nav ul li a {
+    /*chamando nossa (a) dentro do footer01 para modificar*/
+
+    color: white;
+    /*colocando cor na(a)*/
+
+    text-decoration: none;
+    /*removendo a linha de baixo das ancoras */
 }
 
 .footer01 i:hover {
@@ -217,170 +312,189 @@ header img { /*chamando a (img) para modificar*/
     border-radius: 15px;
     transition: 1s;
 }
-.footer01{
+
+.footer01 {
     padding: 100px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     background-color: rgb(69, 2, 69);
 }
+
 /*ESTILIZAÇÃO DA TELA 2*/
 
 
-.section-tela2{
-    background-image: url(imagem/escavadeira20.jpg);/*colocando imagem*/
-    padding: 250px;/*preenchimento*/
-    background-position: center;/*posicionando no centro a imagem*/
-    background-repeat: no-repeat;/*para não se repetir*/
-    background-size: cover;/*colocando a imagem para cobrir os espasos*/
+.section-tela2 {
+    background-image: url(imagem/escavadeira20.jpg);
+    /*colocando imagem*/
+    padding: 250px;
+    /*preenchimento*/
+    background-position: center;
+    /*posicionando no centro a imagem*/
+    background-repeat: no-repeat;
+    /*para não se repetir*/
+    background-size: cover;
+    /*colocando a imagem para cobrir os espasos*/
 }
 
 .section-tela2 p {
-    font-size: 40px;/*tamanho do fundo*/
-    color: white;/*colocando cor no p*/
-    font-weight: 800;/*colocando um peso na letra*/
+    font-size: 40px;
+    /*tamanho do fundo*/
+    color: white;
+    /*colocando cor no p*/
+    font-weight: 800;
+    /*colocando um peso na letra*/
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
 .section-tela2 p span {
-    color: yellow;/*colocando cor no span*/
-    font-weight: bold;/*colocando um peso na letra*/
+    color: yellow;
+    /*colocando cor no span*/
+    font-weight: bold;
+    /*colocando um peso na letra*/
 }
 
 .section-nova {
-    padding: 250px;/*preenchimento de sessão*/
-    background-color: beige;/*cor de fundo*/
+    padding: 250px;
+    /*preenchimento de sessão*/
+    background-color: beige;
+    /*cor de fundo*/
 }
 
-.section-atual{
-    padding: 250px;/*preenchimento de sessão*/
-    background-color: aqua;/*cor de fundo*/
+.section-atual {
+    padding: 250px;
+    /*preenchimento de sessão*/
+    background-color: aqua;
+    /*cor de fundo*/
 }
 
-.section-nova {/*chamando a sessão */
-    padding: 250px;/*preenchimento de sessão*/
-    background: linear-gradient(180deg, #f69a0b 8.33%, #9b0800 100%);/*degrader no meio do site atras das imagem*/
+.section-nova {
+    /*chamando a sessão */
+    padding: 250px;
+    /*preenchimento de sessão*/
+    background: linear-gradient(180deg, #f69a0b 8.33%, #9b0800 100%);
+    /*degrader no meio do site atras das imagem*/
 }
 
 /* Bloco 1 */
-.div-pai{/*div pai - dentro dele existe 3 div*/
-    display: flex;/*tornando flex e deixando lado a lado*/
-    justify-content: center;/*justificando os itens ao centro*/
-    margin-right: 20px;/*espaçamento entre as caixas (div)*/
-    margin-bottom: 20px;/*espaçamento entre a (div pai) e a (div pai2)*/
-}
-.div-pai div {/*estetizando das caixas (div filhos)*/
-    width: 250px;/*largura da caixa*/
-    height: 250px;/*altura da caixa*/
-    margin-right: 20px;/*espaçamento entre as caixas (div)*/
+.div-pai {
+    /*div pai - dentro dele existe 3 div*/
+    display: flex;
+    /*tornando flex e deixando lado a lado*/
+    justify-content: center;
+    /*justificando os itens ao centro*/
+    margin-right: 20px;
+    /*espaçamento entre as caixas (div)*/
+    margin-bottom: 20px;
+    /*espaçamento entre a (div pai) e a (div pai2)*/
 }
 
+.div-pai div {
+    /*estetizando das caixas (div filhos)*/
+    width: 250px;
+    /*largura da caixa*/
+    height: 250px;
+    /*altura da caixa*/
+    margin-right: 20px;/*espaçamento entre as caixas (div)*/
+}
 /* bloco 2 */
 .div-pai2 {/*estelizando a div pai2 - */
     display: flex;/*tornando flex e deixando lado a lado*/
     justify-content: center;/*justificando os itens ao centro*/
     margin-right: 20px;/*espaçamento entre as caixas (div)*/
 }
-
 .div-pai2 div {/*chamando a (div-pai2)especificando qual que eu quero mexer(.div)*/
     width: 250px;/*largura da caixa*/
     height: 250px;/*altura da caixa*/
     background-color: rgb(0, 255, 234);/*cor de fundo*/
     margin-right: 20px;/*espaçamento entre as caixas (div)*/
 }
-.div-pai .div1{/*chamando a (div-pai2)especificando qual que eu quero mexer(.div1)*/
+.div-pai .div1 {/*chamando a (div-pai2)especificando qual que eu quero mexer(.div1)*/
     background-image: url(imagem/escava\ pequena.jfif);/*colocando imagem*/
     background-size: cover;/*colocando a imagem para cobrir os espasos tamanho*/
     background-position: center;/*posicionando no centro a imagem*/
     background-repeat: no-repeat;/*para não se repetir*/
 }
-
-.div-pai .div2{/*chamando a (div-pai2)especificando qual que eu quero mexer(.div2)*/
+.div-pai .div2 {/*chamando a (div-pai2)especificando qual que eu quero mexer(.div2)*/
     background-image: url(imagem/escava\ media.jfif);/*colocando imagem*/
     background-size: cover;/*colocando a imagem para cobrir os espasos tamanho*/
     background-position: center;/*posicionando no centro a imagem*/
     background-repeat: no-repeat;/*para não se repetir*/
 }
-.div-pai .div3{/*chamando a (div-pai2)especificando qual que eu quero mexer(.div3)*/
+.div-pai .div3 {/*chamando a (div-pai2)especificando qual que eu quero mexer(.div3)*/
     background-image: url(imagem/escava\ grande.jfif);/*colocando imagem*/
     background-size: cover;/*colocando a imagem para cobrir os espasos tamanho*/
     background-position: center;/*posicionando no centro a imagem*/
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;/*fazendo a imagen não se repetir*/
 }
-.div-pai2 .div4{/*chamando a (div-pai2)especificando qual que eu quero mexer(.div4)*/
+.div-pai2 .div4 {/*chamando a (div-pai2)especificando qual que eu quero mexer(.div4)*/
     background-image: url(imagem/escava\ de\ demolir.jfif);/*colocando imagem*/
     background-size: cover;/*colocando a imagem para cobrir os espasos tamanho*/
     background-position: center;/*posicionando no centro a imagem*/
     background-repeat: no-repeat;/*para não se repetir*/
 }
-.div-pai2 .div5{/*chamando a (div-pai2)especificando qual que eu quero mexer(.div5)*/
+.div-pai2 .div5 {/*chamando a (div-pai2)especificando qual que eu quero mexer(.div5)*/
     background-image: url(imagem/mini\ escava.jfif);/*colocando imagem*/
     background-size: cover;/*colocando a imagem para cobrir os espasos tamanho*/
     background-position: center;/*posicionando no centro a imagem*/
     background-repeat: no-repeat;/*para não se repetir*/
 }
-.div-pai2 .div6{/*chamando a (div-pai2)especificando qual que eu quero mexer(.div6)*/
+.div-pai2 .div6 {/*chamando a (div-pai2)especificando qual que eu quero mexer(.div6)*/
     background-image: url(imagem/escavadeira\ escava.jfif);/*colocando imagem*/
     background-size: cover;/*colocando a imagem para cobrir os espasos tamanho*/
     background-position: center;/*posicionando no centro a imagem*/
     background-repeat: no-repeat;/*para não se repetir*/
 }
-
-.div1:hover{/*puxando a (div1)(caixa) para modificar*/
+.div1:hover {/*puxando a (div1)(caixa) para modificar*/
     width: 260px;/*largura da caixa*/
     height: 260px;/*altura da caixa*/
     transition: 1s;/*transição do elemento*/
     border-radius: 30px;/*arredondando a borda*/
     background-image: url(imagem/escava\ de\ demolir.jfif);/*colocando imagem para quando passar o mauze mudar a imagem*/
 }
-
-.div2:hover{/*puxando a (div2)(caixa) para modificar*/
+.div2:hover {/*puxando a (div2)(caixa) para modificar*/
     width: 260px;/*largura da caixa*/
     height: 260px;/*altura da caixa*/
     transition: 1s;/*transição do elemento*/
     border-radius: 30px;/*arredondando a borda*/
     background-image: url(imagem/escavadeira\ escava.jfif);/*colocando imagem para quando passar o mauze mudar a imagem*/
 }
-
-.div3:hover{/*puxando a (div3)(caixa) para modificar*/
+.div3:hover {/*puxando a (div3)(caixa) para modificar*/
     width: 260px;/*largura da caixa*/
     height: 260px;/*altura da caixa*/
     transition: 1s;/*transição do elemento*/
     border-radius: 30px;/*arredondando a borda*/
     background-image: url(imagem/escava\ pequena.jfif);/*colocando imagem para quando passar o mauze mudar a imagem*/
 }
-
-.div4:hover{/*puxando a (div4)(caixa) para modificar*/
+.div4:hover {/*puxando a (div4)(caixa) para modificar*/
     width: 260px;/*largura da caixa*/
     height: 260px;/*altura da caixa*/
     transition: 1s;/*transição do elemento*/
     border-radius: 30px;/*arredondando a borda*/
     background-image: url(imagem/escava\ grande.jfif);/*colocando imagem para quando passar o mauze mudar a imagem*/
 }
-
-.div5:hover{/*puxando a (div5)(caixa) para modificar*/
+.div5:hover {/*puxando a (div5)(caixa) para modificar*/
     width: 260px;/*largura da caixa*/
     height: 260px;/*altura da caixa*/
     transition: 1s;/*transição do elemento*/
     border-radius: 30px;/*arredondando a borda*/
     background-image: url(imagem/escava\ media.jfif);/*colocando imagem para quando passar o mauze mudar a imagem*/
 }
-
-.div6:hover{/*puxando a (div6)(caixa) para modificar*/
+.div6:hover {/*puxando a (div6)(caixa) para modificar*/
     width: 260px;/*largura da caixa*/
     height: 260px;/*altura da caixa*/
     transition: 1s;/*transição do elemento*/
     border-radius: 30px;/*arredondando a borda*/
     background-image: url(imagem/escava\ de\ demolir.jfif);/*colocando imagem para quando passar o mauze mudar a imagem*/
 }
-.section-ultima{
+.section-ultima {
     padding: 200px;/*preenchimento de sessão*/
     display: flex;/*tornando flex e deixando lado a lado*/
     justify-content: space-evenly;
     background: linear-gradient(360deg, #f69a0b 8.33%, #9b0800 100%);/*degrader no meio do site atras das imagem*/
 }
-.div-iframe div h2{
+.div-iframe div h2 {
     color: white;/*colocando cor no titulo secundario*/
     margin: 20px;
     font-size: 25px;
@@ -391,23 +505,22 @@ header img { /*chamando a (img) para modificar*/
     font-size: 20px;/*alterando o tamanho da lentra*/
     font-weight: 400;/*peso da letra*/
 }
-.div-iframe iframe{
+.div-iframe iframe {
     border-radius: 10px;/*aredondamento da borda*/
     margin-right: 30px;
 }
-.rodape{
+.rodape {
     padding: 100px;
     background-color: rgb(69, 2, 69);
     display: flex;
     justify-content: space-evenly;
     align-items: center
 }
-
-.div-line img{
-    width: 150px;
+.div-line img {
+    width: 150px;/*largura da imagen*/
 
 }
-.div-line .line{
+.div-line .line {
     width: 110px;/*largura da linha*/
     height: 1.5px;/*altura da linha*/
     background-color: aqua;/*cor de fundo da linha*/
@@ -418,7 +531,7 @@ header img { /*chamando a (img) para modificar*/
     color: rgb(231, 6, 6);/*cor da ancora*/
     font-size: 35px;/*tamanho da letra*/
 }
-.div-icons a i{
+.div-icons a i {
     background-color: #1b1818;/*atribuindo uma cor de fundo aos nossos icones*/
     padding: 15px;/*aplicando um respiro dentro dos icone*/
     font-size: 45px;/*tamanho da letra*/
@@ -429,10 +542,11 @@ header img { /*chamando a (img) para modificar*/
     margin-bottom: 20px;/*margin inferior em relação o texto*/
 }
 .rodape i:hover {/*aplicando o efeito ao passar o mouse*/
-
     background-color: rgba(0, 0, 255, 0.342);/*cor de fundo alterada*/
-    border-radius: 10px;
+    border-radius: 10px;/*arredonda mento da borda*/
     transition: 1s;/*transição do elemento*/
 }
-
+html {/*chamando o html*/
+    scroll-behavior: smooth;/*suavizando a movimentação*/
+}
 /*google fonts Oswald*/
